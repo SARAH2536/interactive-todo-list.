@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 30px;
+}
+
+h1 
+    color: #333;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    max-width: 500px;
+    margin: auto;
+    padding: 0;
+}
+
+li {
+    background-color: white;
+    color: gray;
+    padding: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+.check {
+    display: none;
+    color: green;
+    font-weight: bold;
+}
+
+li.completed {
+    color: green;
+    background-color: #e0f5e0;
+}
+
+li.completed .check {
+    display: inline;
+}
